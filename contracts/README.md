@@ -36,3 +36,8 @@ To create a transparent, tamper-proof, and efficient voting system that can be u
    ```bash
    git clone <repository_url>
    cd Blockchain-Based-Voting-System
+
+
+
+
+contract address: 0x76D927e7cADCA703084873a7A4e262166D1bF401 
