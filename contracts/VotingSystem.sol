@@ -65,4 +65,13 @@ contract VotingSystem {
         }
         emit VotingEnded(winnerId, candidates[winnerId].name, winningVoteCount);
     }
+
+    //  New utility function
+    function getAllCandidates() public view returns (Candidate[] memory) {
+        Candidate[] memory allCandidates = new Candidate[](candidatesCount);
+        for (uint i = 1; i <= candidatesCount; i++) {
+            allCandidates[i - 1] = candidates[i];
+        }
+        return allCandidates;
+    }
 }
