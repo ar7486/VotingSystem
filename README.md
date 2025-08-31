@@ -34,7 +34,6 @@ To create a transparent, tamper-proof, and efficient voting system that can be u
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
    cd Blockchain-Based-Voting-System
 
 
